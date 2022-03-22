@@ -13,13 +13,14 @@ print(l2) # [1,2,3,4]  # copy kullanmasaydık aliasing yüzünden [1,5,3,4] olur
 #len: listenin uzunluğu
 #append: listenin sonuna eleman ekler
 #extend: listenin sonuna elemanlar ekler
-#insert: spesifik bir indexe eleman ekler. diğer indexleri sağa kaydırır.
+#insert: spesifik bir indexe eleman ekler. diğer indexleri sağa kaydırır. #l.insert(index,eleman)
 #remove: belirli bir elemanı listeden siler
 #pop: belirli bir elemanı siler ve o elemanı döndürür.
 #count: belirli bir elemanın listede kaç defa olduğunu gösterir
 #index: belirli bir elemanın indexini bulur
 #reverse: listeyi tersine çevirir (inplace)
-#sorted: küçükten büyüğe sıralar
-#sort: küçükten büyüğe sıralar (inplace)
+#sorted: küçükten büyüğe sıralar  #sorted(l)
+#sort: küçükten büyüğe sıralar (inplace)  #l.sort()
 #Aliasing
 #Concatenation: + operatörü listlerde concatenation yapar.
+#tuple: immutable listtir. #tuple=(x,y)
