@@ -1,0 +1,11 @@
+cevap = input("x 5 olsun mu? y/n")
+#
+if cevap == "y":
+    x = 5
+else:
+    x = 0
+print(x)
+#
+x=5 if cevap == "y" else 0
+print(x)
+#Kodun aynısı tek satırda.
