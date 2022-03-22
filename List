@@ -1,0 +1,25 @@
+#Listler mutable ve aliasingtir.
+#copy ile aliasngi kaldırabiliriz.
+
+l1 = [1,2,3,4]
+l2 = l1.copy()
+
+l1[1] = 5
+
+print(l1) # [1,5,3,4]
+print(l2) # [1,2,3,4]  # copy kullanmasaydık aliasing yüzünden [1,5,3,4] olurdu.
+
+
+#len: listenin uzunluğu
+#append: listenin sonuna eleman ekler
+#extend: listenin sonuna elemanlar ekler
+#insert: spesifik bir indexe eleman ekler. diğer indexleri sağa kaydırır.
+#remove: belirli bir elemanı listeden siler
+#pop: belirli bir elemanı siler ve o elemanı döndürür.
+#count: belirli bir elemanın listede kaç defa olduğunu gösterir
+#index: belirli bir elemanın indexini bulur
+#reverse: listeyi tersine çevirir (inplace)
+#sorted: küçükten büyüğe sıralar
+#sort: küçükten büyüğe sıralar (inplace)
+#Aliasing
+#Concatenation: + operatörü listlerde concatenation yapar.
