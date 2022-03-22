@@ -1,0 +1,14 @@
+#2. öğrencinin kağıdı doğru okunmuş diğerlerine +10 puan.
+
+notlar = [25,43,84,59,66,41,92]
+
+for i in range(len((notlar))):
+
+    if i == 1:
+        continue
+    notlar[i]+=10
+
+    if notlar[i] > 100:
+        notlar[i] = 100
+        
+print(notlar)
