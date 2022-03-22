@@ -1,0 +1,74 @@
+-Listelerde İterasyon
+
+notlar = [90,72,81,77]
+
+for e in notlar:
+    print(e)
+
+
+#90
+#72
+#81
+#77
+
+for e in notlar diyince ilk iterasyonda enin değeri 90, ikincisinde 72... olarak devam etti.
+Bunun aynısını range() fonksiyonu ile de yapabilirdik.
+range() ile indexlerde iterasyon yapıp indexing ile değerlerine de ulaşabilirdim. (Range belirli bir listenin indexlerinde iterasyon yapmamı sağlamıyor, range(len(notlar)) diyince bize 0,1,2.. len(notlar)-1 sayılarını verecek, bunlar da listenin indexleriyle örtüşüyor, yoksa range() index verir diye bir şey yok.)
+
+t = 0
+
+for i in range(len(notlar)):
+    t += notlar[i]
+    
+ortalama = t / len(notlar)
+
+print("Ortalama:",ortalama)
+-----------------------------
+-Tuple'lerda İterasyon
+
+Listelerde iterasyondan hiç bir farkı yok. Değerlerini güncelleyemiyoruz ama bu zaten döngüden bağımsız bir durum oluyor.
+-----------------------------
+-Dictionary'lerde İterasyon
+
+Burada durum biraz farklı. Default olarak elemanlarında dolaş diyince key 'lerde iterasyon yapıyor. 
+
+for k in d:
+    print(k)
+
+
+#student_1
+#student_2
+#student_3
+
+Değerlerine ulaşmak istiyorsam şöyle yapabilirim:
+
+for k in d:
+    
+    print(d[k])
+    
+#[90, 89]
+#[80, 83]
+#[72, 71]
+
+Veya d.values() diyerek value'lerında iterasyon yapabilirim.
+
+d = {"student_1": 90, "student_2": 80, "student_3": 72}
+
+for v in d.values():
+    print(v)
+#90
+#80
+#72
+
+
+Aynı anda hem key hem de value'larda iterasyon yapmak için:
+
+Variable unpacking konusunda bir tuple, liste gibi yapıların değerlerini birden çok değişkene bir seferde eşitlemeyi görmüştük. Bunun aynısını iterasyonda da yapabiliriz.
+
+for k,v in d.items():
+    print("key değeri:", k, "value değeri:", v)
+
+
+key değeri: student_1 value değeri: 90
+key değeri: student_2 value değeri: 80
+key değeri: student_3 value değeri: 72
