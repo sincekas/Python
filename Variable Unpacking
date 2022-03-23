@@ -1,0 +1,17 @@
+x, y, z = (4, 7, 11)
+print(x, y ,z)
+
+
+#4 7 11
+------------
+
+x, y, z = (4, 7, 11, 4, 21) >>>>>hata verir. Bunu gidermek için * yapısını kullanırız.
+
+x, y, *z = (4, 7, 11, 4, 21) #x=4 y=7 z=[11,4,21] type'ı listtir.
+
+x, y, *z, t = (4, 7, 11, 4, 21) >>>>>hata verir.
+
+
+x, y, *z, t, u = (4, 7, 11, 4, 21, 32, 2) # x=4 y=7 u=2 t=32 z= [11,4,21]
+
+x, *y, *t = (4, 7, 11, 4) >>>>>hata verir.
