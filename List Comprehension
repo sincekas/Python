@@ -1,0 +1,11 @@
+squares = []
+
+for i in range(1,11):
+    squares.append(i*i)
+    
+    
+    
+Bunun aynısını list comprehension kullanarak da yapabiliriz.
+
+
+squares = [i * i for i in range(1,11)]
