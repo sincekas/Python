@@ -1,11 +1,22 @@
+#1'den 10'a kadar olan sayıların karelerinden bir liste oluşturmak istiyorum. Bunu aşağıdaki gibi yapabilirim.
+
 squares = []
 
 for i in range(1,11):
     squares.append(i*i)
     
-    
-    
 Bunun aynısını list comprehension kullanarak da yapabiliriz.
 
 
 squares = [i * i for i in range(1,11)]
+
+---------------------------------------------------------------
+
+# listedeki tek elemanlardan yeni bir liste oluştur.
+
+square = [i*i for i in range(1,11)] # 1,4,9,16,25,36..81,100
+
+odd_square = [e for e in square if e%2 ==1]
+
+print(odd_square)
+#[1, 9, 25, 49, 81]
