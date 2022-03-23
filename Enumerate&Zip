@@ -32,3 +32,25 @@ for s, g in zip(ogrenciler, notlar):
 #ogrenci_2 80
 #ogrenci_3 72
 ------------------------------------------------------------
+İki farklı yolla dictionaries'e key ve value ekleme
+d = {}
+key = ["isim", "soyisim", "ulke", "is"]
+value = ["Deniz", "Hür", "Turkey", "ogretmen"]
+
+----------
+#1-
+for k,v in zip(key, value):
+   d[k] = v
+
+print(d)
+----------
+#2-
+for i in range(len(key)):
+   k = key[i]
+   v = value[i]
+   d[k] = v
+
+print(d)
+----------
+
+
