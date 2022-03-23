@@ -1,0 +1,34 @@
+enumerate():
+
+enumerate() bize çıktıyı (index, element) olarak verecek.
+
+adlar = ['Tyler', 'Blake', 'Cory', 'Cameron']
+
+for i, e in enumerate(adlar):
+    print(i, "indexindeki eleman:", e)
+    
+#0 indexindeki eleman: Tyler
+#1 indexindeki eleman: Blake
+#2 indexindeki eleman: Cory
+#3 indexindeki eleman: Cameron
+
+enumerate() 0'dan başlamak zorunda değil, özellikle kaçtan başlayacağını belirtebiliriz.
+
+for i, e in enumerate(adlar, start = 1):
+------------------------------------------------------------
+
+zip():
+
+Farklı yapıların içinde paralel iterasyon yapmamızı sağlar.
+
+ogrenciler = ["ogrenci_1", "ogrenci_2", "ogrenci_3"]
+
+notlar = [90,80,72]
+
+for s, g in zip(ogrenciler, notlar):
+    print(s, g)
+    
+#ogrenci_1 90
+#ogrenci_2 80
+#ogrenci_3 72
+------------------------------------------------------------
