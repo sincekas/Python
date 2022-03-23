@@ -1,0 +1,14 @@
+Formumuz {key1:value1, key2:value2...} şeklinde olacak.
+dictionary'lerin keyleri immutable herhangi bir yapıda olabilir. value'lar mutable da immutable da olabilir.
+
+
+
+
+Eleman Eklemek
+notlar["Mert"] = 58
+
+Eleman Silmek
+del notlar["Mert"]
+
+
+notlar = {"Deniz": 80, "Ege":72, "Gizem": 95}
