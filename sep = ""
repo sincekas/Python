@@ -1,0 +1,9 @@
+sep = "" kullanarak Yazıların Arasını Ayarlayalım:
+
+
+print("Merhabalar",4,5,2,"SA",sep = "-") # yazıların arasını - ile dolduruyoruz.
+>>> Merhabalar-4-5-6-SA
+
+
+print("Merhabalar",4,5,2,"SA",sep = ".") # yazıların arasını . ile dolduruyoruz.
+>>> Merhabalar.4.5.6.SA
