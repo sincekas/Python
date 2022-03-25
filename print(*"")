@@ -1,0 +1,6 @@
+print(*"TBMM") # print ile terminale yazıları yazdırıyoruz.
+>>> T B M M
+
+
+print(*"TBMM",sep = ".") # print ile terminale arasına . ekleyerek yazıdırıyoruz.
+>>> T.B.M.M
