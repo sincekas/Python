@@ -1,0 +1,11 @@
+sonuna .format() ekleyerek Yazıları Sonradan Ayarlayalım:
+
+        sırasıyla:
+
+print("{} ile {} toplamı: {} sayısıdır.".format(4,5,9)) # print ile terminale yazıları sonradan koyup, yazdırıyoruz.
+>>> 4 ile 5 toplamı: 9 sayısıdır.
+
+      atamaya göre:
+
+print("{a} ile {b} toplamı: {c} sayısıdır.".format(a = 4,b = 5,c = 9)) # print ile terminale yazıları sonradan koyup, yazdırıyoruz.
+>>> 4 ile 5 toplamı: 9 sayısıdır.
