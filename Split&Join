@@ -1,3 +1,30 @@
-s.split("patern")
+split()
 
-"patern".join()
+Belirli bir bölme kriterine göre string'in alt parçalarını listenin elemanları olarak dönüştürebiliriz. Ne zaman "" içindeki karakteri görürsen ondan öncekini bir eleman diye yaz ondan sonrasını boşluğa kadar öbür eleman olarak yaz, liste oluştur.
+
+Stringleri belli paternlere göre liste dönüştürür.
+
+s = "merhaba nasılsın ?"
+print(s.split(" "))
+
+#['merhaba', 'nasılsın', '?']
+
+hiç bir şey yazmazsak default olarak boşluğa göre böler.
+
+s = "arabada 5, evde 15"
+
+a = s.split(",")
+print(a)
+
+# ['arabada 5', ' evde 15']
+-----------------------------
+
+join()
+
+Listenin elemanları arasına belirtilen yapıyı koyup string'e dönüştürür.
+
+l = ['limon', 'portakal', 'elma']
+
+a = ",".join(l)
+print(a)
+# limon,portakal,elma
