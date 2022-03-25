@@ -1,0 +1,4 @@
+print("Merhabalar",4,5,2,"SA", end = " - ") # print ile sonuna " - " koyup, terminale yazıları yazdırıyoruz.
+print("Merhabalar","Nasılınız") # print ile terminale yazıları yazdırıyoruz.
+
+>>> Merhabalar 4 5 6 SA - Merhabalar Nasılsınız
