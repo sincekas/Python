@@ -1,0 +1,6 @@
+sonuna %() ekleyerek Yazıları Sonradan Ayarlayalım:
+
+        sırasıyla:
+
+print("%s ile %s toplamı: %s sayısıdır." %(4,5,9)) # print ile terminale yazıları sonradan koyup, yazdırıyoruz.
+>>> 4 ile 5 toplamı: 9 sayısıdır.
