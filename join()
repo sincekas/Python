@@ -1,0 +1,9 @@
+join()
+
+Listenin elemanları arasına belirtilen yapıyı koyup string'e dönüştürür.
+
+l = ['limon', 'portakal', 'elma']
+
+a = ",".join(l)
+print(a)
+# limon,portakal,elma
