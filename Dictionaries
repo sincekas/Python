@@ -12,3 +12,13 @@ del notlar["Mert"]
 
 
 notlar = {"Deniz": 80, "Ege":72, "Gizem": 95}
+
+
+-----------
+
+dict.clear() /// format atar
+dict.copy() /// kopyalar
+dict.pop() /// key'i kaldırır
+dict.values() /// valueları list olarak döndürür
+dict.keys() /// keyleri list olarak döndürür
+dict.items() /// dict'i list içinde tuple olarak döndürür
