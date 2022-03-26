@@ -10,15 +10,15 @@ print(l1) # [1,5,3,4]
 print(l2) # [1,2,3,4]  # copy kullanmasaydık aliasing yüzünden [1,5,3,4] olurdu.
 
 
-#len: listenin uzunluğu
+#len: listenin uzunluğu /// len(list)
 #append: listenin sonuna eleman ekler
 #extend: listenin sonuna elemanlar ekler
 #insert: spesifik bir indexe eleman ekler. diğer indexleri sağa kaydırır. #l.insert(index,eleman)
-#remove: belirli bir elemanı listeden siler
-#pop: belirli bir elemanı siler ve o elemanı döndürür.
+#remove: belirli bir elemanı listeden siler /// list.remove("eleman")
+#pop: belirli bir elemanı siler ve o elemanı döndürür. /// list.pop("eleman")
 #count: belirli bir elemanın listede kaç defa olduğunu gösterir
 #index: belirli bir elemanın indexini bulur
-#reverse: listeyi tersine çevirir (inplace)
+#reverse: listeyi tersine çevirir (inplace) /// list.reverse()
 #sorted: küçükten büyüğe sıralar  #sorted(l)
 #sort: küçükten büyüğe sıralar (inplace)  #l.sort()
 #Aliasing
