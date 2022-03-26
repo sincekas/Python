@@ -1,0 +1,2 @@
+with open("NAME.TXT", "w") as DOSYA_VARIABLE:
+    DOSYA_VARIABLE.write("YAZILACAK STRING VS.")
