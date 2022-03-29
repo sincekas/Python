@@ -21,6 +21,10 @@ print(l2) # [1,2,3,4]  # copy kullanmasaydık aliasing yüzünden [1,5,3,4] olur
 #reverse: listeyi tersine çevirir (inplace) /// list.reverse()
 #sorted: küçükten büyüğe sıralar  #sorted(l)
 #sort: küçükten büyüğe sıralar (inplace)  #l.sort()
+#startswith : ile başlıyor mu /// list.startswith("eleman")
+#endswith : ile bitiyor mu /// list.endswith("eleman")
+#replace : karater değiştirme /// list.replace("değişecek eleman","yeni eleman")
+
 #Aliasing
 #Concatenation: + operatörü listlerde concatenation yapar.
 #tuple: immutable listtir. #tuple=(x,y)
